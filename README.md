@@ -1,5 +1,4 @@
 # Pradrões estruturais e escrita front-end
-----
 
 ## 1. Introdução
 Quando decidimos a criar um padrão de escrita, fomos atrás de padrões e nomeclaturas para termos referências do que era tendência do mercado. Encontramos os seguintes padrões: SMACSS, Idiomatic e BEM que foram a base para chegarmos neste resultado final.
