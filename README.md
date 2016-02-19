@@ -14,7 +14,7 @@ Ajude-nos a tornar o projeto cada vez melhor. Contribuições serão sempre bem 
 <a name="introduction"></a>
 ## 1. Introdução
 
-Para escrever arquivos CSS estamos utilizando o 3 características:
+Para escrever arquivos CSS escolhomos utilizar as seguintes ferramentas:
 - [SMACSS](https://smacss.com/book/categorizing) para organizar os diretórios
 - [idiomatic.css](https://github.com/necolas/idiomatic-css) para organizar os comentários
 - [BEM](http://getbem.com/introduction/) para organizar a hierarquia os seletores
