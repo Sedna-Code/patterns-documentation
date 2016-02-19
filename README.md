@@ -4,7 +4,7 @@ Esta documentação foi criada para solucionar problemas nos projetos frontend, 
 
 Pode ser que você não siga ou não concorde com algumas dessas práticas ou utilizadas. Mas não existe uma padronização que agrade todos os gostos pessoais de cada um por isso precisamos escolher apenas um.
 
-Todas as sugestões para colaborar com essas boas práticas iram ser analisadas para sempre melhorarmos cada vez mais a mesma.
+Ajude-nos a tornar o projeto cada vez melhor. Contribuições serão sempre bem vindas. Para contribuir basta fazer um fork do projeto, fazer suas sugestões e nos enviar um pull request.
 
 ## Índice
 
@@ -18,43 +18,44 @@ Quando decidimos a criar um padrão de escrita, fomos atrás de padrões e nomec
 
 Esta padronização foi necessária, pois, queriamos que o código fosse uniforme e qualquer pessoa conseguisse manter o código e pudesse garantir que o projeto seja flexível e escalável de forma consistente.
 
+
 <a name="sctructure-folders"></a>
 ## 2. Estrutura de pastas
 
-App/
------ Images/
----------- Sprite/
----------- Temp/
+Procuramos padronizar a estrutura de diretórios e nomeclatura de arquivos JS e CSS para melhorar a interpretação. Assim, qualquer pessoa que precisar dar manutenção no projeto, será possível recuperar rapidamente os respectivos arquivos.
 
------ Scripts/
----------- Source/
--------------- Base/
--------------- Layout/
--------------- Library/
--------------- Modules/
--------------- Plugins/
------------------- handlebars.runtime.min.js
------------------- jquery.min.js
--------------- Themes/
------------------- Templates/
------------------- Views/
--------------- Utilities/
-
--------------- Common.js
--------------- Config.js
-
----------- Styles/
--------------- Base/
------------------- Breakpoint.scss
------------------- Colors.scss
------------------- Container.scss
------------------- Fonts.scss
------------------- Mixins.scss
------------------- Reset.scss
--------------- Layout/
--------------- Modules/
--------------- Plugins/
--------------- Themes/
------------------- Templates/
------------------- Views/
--------------- Utilities/
+```js
+├── App/
+│   ├── Build
+│   │   ├── Images
+│   │   │   └── Sprite.png
+│   │   │   └── Logo.svg
+│   │   ├── Scripts
+│   │   │   └── App.js
+│   │   └── Styles
+│   │       └── App.css
+│   ├── Source
+│   │   ├── Fonts
+│   │   ├── Images
+│   │   ├── Scripts
+│   │   ├── Styles
+│   │   │   ├── Base
+│   │   │   │   ├── Breakpoint.scss
+│   │   │   │   ├── Colors.scss
+│   │   │   │   ├── Container.scss
+│   │   │   │   ├── Fonts.scss
+│   │   │   │   ├── Mixins.scss
+│   │   │   │   └── Reset.scss
+│   │   │   ├── Layout
+│   │   │   ├── Modules
+│   │   │   ├── Plugins
+│   │   │   ├── Themes
+│   │   │   │   ├── Templates
+│   │   │   │   └── Views
+│   │   │   ├── Utilities
+│   │   │   ├── Common.scss
+│   │   │   └── Sprite.scss
+│   │   ├── Views
+│   │   │   ├── Pages
+│   │   │   └── Partials
+```
