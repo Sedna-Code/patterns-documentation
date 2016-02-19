@@ -1,4 +1,4 @@
-# Pradrões estruturais e escrita front-end
+# Padrões estruturais e escrita front-end
 
 Esta documentação foi criada para solucionar problemas nos projetos front-end, e teve como objetivo resolver problemas pontuais que nossa equipe vivia diariamente. Problemas como falta de padronização, estrutura do projeto que não tinha sentido, manter o projeto escalável e continuar tendo uma organização legível e diminuir a quantidade de repetição de código criando responsabilidades hierárquicas dentro do projeto sem torná-las uma dependente da outra.
 
