@@ -10,6 +10,9 @@ Ajude-nos a tornar o projeto cada vez melhor. Contribuições serão sempre bem 
 
 1. [Introdução](#introduction)
 2. [Estrutura de pastas](#sctructure-folders)
+3. [Escrita de arquivos](#writing-files)
+ 3.1 [CSS](#css)
+ 3.2 [JavaScript](#js)
 
 <a name="introduction"></a>
 ## 1. Introdução
@@ -30,7 +33,7 @@ Procuramos padronizar a estrutura de diretórios e nomenclatura de arquivos JS e
 
 ```js
 ├── App/
-│   ├── Build
+│   ├── Build // Diretório de arquivos compilados
 │   │   ├── Images
 │   │   │   └── Sprite.png
 │   │   │   └── Logo.svg
@@ -38,7 +41,7 @@ Procuramos padronizar a estrutura de diretórios e nomenclatura de arquivos JS e
 │   │   │   └── App.js
 │   │   └── Styles
 │   │       └── App.css
-│   ├── Source
+│   ├── Source // Diretório de arquivos para desenvolvimento
 │   │   ├── Fonts
 │   │   ├── Images
 │   │   ├── Scripts
@@ -60,6 +63,30 @@ Procuramos padronizar a estrutura de diretórios e nomenclatura de arquivos JS e
 │   │   │   ├── Common.scss
 │   │   │   └── Sprite.scss
 │   │   ├── Views
-│   │   │   ├── Pages
-│   │   │   └── Partials
+│   │   │   ├── Pages // Páginas com informações específicas
+│   │   │   └── Partials // Template com conteúdo reaproveitado em páginas
 ```
+
+<a name="css"></a>
+# 3 Escrita de arquivos
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quam modi laboriosam necessitatibus harum! Ducimus optio laboriosam nam totam. Ipsum cum dolor minus aspernatur cupiditate sapiente repudiandae soluta laborum dolores?
+
+<a name="css"></a>
+## 3.1 CSS
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quam modi laboriosam necessitatibus harum! Ducimus optio laboriosam nam totam. Ipsum cum dolor minus aspernatur cupiditate sapiente repudiandae soluta laborum dolores?
+
+<a name="js"></a>
+## 3.2 JavaScript
+
+Escrever aquivos em JS deve-se utilizar o padrão UpperCamelCase:
+– Atributos
+– Métodos
+- Classes
+
+```js
+var CodeFlavor
+```
+
+Criamos um arquivo de configuração do [JSHint](http://jshint.com/docs/options/) com opções específicas para nossa. As configurações estão no arquivo .jshintrc do nosso [Web Generator] (https://github.com/Sedna-Code/structure-web-generator/blob/master/.jshintrc)
