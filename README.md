@@ -68,17 +68,27 @@ Procuramos padronizar a estrutura de diretórios e nomenclatura de arquivos JS e
 ```
 
 <a name="css"></a>
-# 3 Escrita de arquivos
+# 3. Escrita de arquivos
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quam modi laboriosam necessitatibus harum! Ducimus optio laboriosam nam totam. Ipsum cum dolor minus aspernatur cupiditate sapiente repudiandae soluta laborum dolores?
+Para escrita de aquivos adotamos os seguintes padrões:
+- [DRY](Don't Repeat Yourself) Visa reduzir a repetição de informações de todos os tipos.
+- [KISS](Keep it simple, Stupid) Tem como objetivo evitar a complexidade desnecessária no projeto.
+- [SOLID](Single responsibility, Open-closed, Liskov substitution, Interface segregation and Dependency inversion) Criar um sistema que seja fácil de manter e estender ao longo do tempo.
+
+Ao utilizar estes padrões evitamos que problemas sutis possam causar grandes problemas futuros e melhora a legibilidade do código e estrutura. Além disso, os padrões permitem que os desenvolvedores desenvolvam um tipo de código só e em um único tipo de arquitetura, seguindo o primordial dos conceitos de que "".
+
+<a name="files"></a>
+## 3.1 Arquivos
+
+
 
 <a name="css"></a>
-## 3.1 CSS
+## 3.2 CSS
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quam modi laboriosam necessitatibus harum! Ducimus optio laboriosam nam totam. Ipsum cum dolor minus aspernatur cupiditate sapiente repudiandae soluta laborum dolores?
 
 <a name="js"></a>
-## 3.2 JavaScript
+## 3.3 JavaScript
 
 Escrever aquivos em JS deve-se utilizar o padrão UpperCamelCase:
 – Atributos
