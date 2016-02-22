@@ -71,9 +71,9 @@ Procuramos padronizar a estrutura de diretórios e nomenclatura de arquivos JS e
 # 3. Escrita de arquivos
 
 Para escrita de aquivos adotamos os seguintes padrões:
-- [DRY](Don't Repeat Yourself) Visa reduzir a repetição de informações de todos os tipos.
-- [KISS](Keep it simple, Stupid) Tem como objetivo evitar a complexidade desnecessária no projeto.
-- [SOLID](Single responsibility, Open-closed, Liskov substitution, Interface segregation and Dependency inversion) Criar um sistema que seja fácil de manter e estender ao longo do tempo.
+- [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) Don't Repeat Yourself - Visa reduzir a repetição de informações de todos os tipos.
+- [KISS](https://en.wikipedia.org/wiki/KISS_principle) Keep it simple, Stupid - Tem como objetivo evitar a complexidade desnecessária no projeto.
+- [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) Single responsibility, Open-closed, Liskov substitution, Interface segregation and Dependency inversion - Criar um sistema que seja fácil de manter e estender ao longo do tempo.
 
 Ao utilizar estes padrões evitamos que problemas sutis possam causar grandes problemas futuros e melhora a legibilidade do código e estrutura. Além disso, os padrões permitem que os desenvolvedores desenvolvam um tipo de código só e em um único tipo de arquitetura, seguindo o primordial dos conceitos de que "".
 
